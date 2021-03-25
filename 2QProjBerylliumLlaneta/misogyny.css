@@ -1,0 +1,123 @@
+@font-face {
+    font-family: skinny;
+    src: url(Montserrat-Thin.ttf);
+  }
+
+@font-face {
+    font-family: big;
+    src: url(BIG\ JOHN.otf);
+}
+
+@font-face {
+    font-family: slim;
+    src: url(Slim\ Joe.otf);
+}
+
+header.transparent {
+    background: rgba(204, 204, 204, 0);
+    position: relative;
+    bottom: 700px;
+}
+
+section.transparent {
+    background: rgba(204, 204, 204, 0);
+    position: relative;
+    bottom: 700px;
+}
+
+section.transparentb {
+    background: rgba(204, 204, 204, 0);
+    position: relative;
+    top: 300px;
+}
+
+figure.rectangle {
+    position: fixed;
+    height: 75px;
+    width: 100%;
+    background-color: rgb(22, 22, 22);
+    margin: 0;
+    top: 0;
+    z-index: 5;
+}
+
+main.backr {
+    height: 1900px;
+    width: 100%;
+    background-color: rgb(91, 90, 103);
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+figure.triangle{
+    height: 1500px;
+    width: 1500px;
+    background-color: white;
+    clip-path: polygon(50% 0, 0 100%, 100% 100%);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    z-index: 2;
+}
+
+header.backgr{
+    height: 1500px;
+    width: 100%;
+    background-color: rgb(199, 206, 244);
+    position: absolute;
+    top: 1900px;
+}
+
+p.title {
+    font-family: "skinny";
+    font-weight: bold;
+    font-size: 250px;
+    color:rgb(199, 206, 244);
+    text-align: center;
+    padding-top: 10%;
+}
+
+p.titleb {
+    font-family: "big";
+    font-size: 100px;
+    color: rgb(140, 152, 218);
+    text-align: center;
+}
+
+p.desca {
+    font-family: "skinny";
+    font-weight: bold;
+    font-size: 35px;
+    color: rgb(119, 135, 228);
+    text-align: center;
+}
+
+p.titlec {
+    font-family: "big";
+    font-size: 100px;
+    color: rgb(91, 90, 103);
+    text-align: center;
+    padding-top: 27%;
+}
+
+p.descb {
+    font-family: "skinny";
+    font-weight: bold;
+    font-size: 35px;
+    color: rgb(91, 90, 103);
+    text-align: center;
+    line-height: 1.6;
+}
+
+
+footer.back {
+    font-family: "skinny";
+    font-weight: bold;
+    font-size: 35px;
+    color: rgb(91, 90, 103);
+    text-align: center;
+    line-height: 1.6;
+    padding-top: 700px;
+}
